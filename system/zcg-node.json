@@ -1,0 +1,111 @@
+{
+  "schema_version": "zcg-node-v1",
+  "layer_id": "gov-es",
+  "layer_role": "knowledge",
+  "precedence": 20,
+  "entity_kind": "public-sector",
+  "governing_root_id": "gov-es",
+  "visibility": "public",
+  "stewardship_stage": "public-community",
+  "public_url": "https://github.com/mtwuser/gov-es.git",
+  "canonical_authority_url": "https://github.com/administracion-gob-es/gov-es.git",
+  "description": "Spain Constitutional (CE 1978), AGE Ministerial Organigram & BOE Statutory Corpus",
+  "upstream_layer": {
+    "layer_id": "mtwuser/zero-cloud-gravity",
+    "repository": "https://github.com/mtwuser/zero-cloud-gravity.git",
+    "branch": "master"
+  },
+  "mounted_layers_dir": "layers",
+  "mounted_layers": [],
+  "default_stack_templates": [
+    "business-base",
+    "corporate-operations",
+    "science-base",
+    "scientific-methodology",
+    "gov-es",
+    "node-work-cockpit"
+  ],
+  "baseline_guardrails": [
+    "Enforce gov-es E3..E1 primary-source citation_receipt integrity"
+  ],
+  "surface_bindings": [
+    {
+      "binding_id": "gov-es-surface-binding",
+      "description": "Spain Constitutional (CE 1978), AGE Ministerial Organigram & BOE Statutory Corpus",
+      "mode": "authoritative",
+      "target_globs": [
+        "*"
+      ],
+      "architectural_planes": [
+        "*"
+      ],
+      "scopes": [
+        "*"
+      ],
+      "traits": [
+        "*"
+      ],
+      "default_resolution": "L2",
+      "invariants": [
+        "Enforce gov-es (context-stack) rules and canonical assets"
+      ],
+      "rule_files": [
+        "templates/gov-es/rules/gov-es.md"
+      ],
+      "canonical_templates": [
+        "templates/gov-es/skills/gov-es-guide/SKILL.md",
+        "templates/gov-es/assets/canonical_snippet.md"
+      ]
+    }
+  ],
+  "environments": {
+    "dev": {
+      "description": "Local gov-es curation workspace",
+      "access_mode": "read-write-local",
+      "default_guardrails": [
+        "Verify gov-es primary citations"
+      ]
+    },
+    "tst": {
+      "description": "Validation environment for gov-es",
+      "access_mode": "read-and-test-trigger",
+      "default_guardrails": [
+        "Verify gov-es rcap1 capsules"
+      ]
+    },
+    "pre": {
+      "description": "Staging audit for gov-es",
+      "access_mode": "strictly-read-only",
+      "default_guardrails": [
+        "Audit gov-es citation drift"
+      ]
+    },
+    "pro": {
+      "description": "Canonical public corpus for gov-es",
+      "access_mode": "strictly-read-only-audited",
+      "default_guardrails": [
+        "Enforce gov-es E3..E1 immutability"
+      ]
+    }
+  },
+  "federated_mcps": [],
+  "layer_authority": {
+    "owner_role": "gov-es Knowledge Steward",
+    "authorized_emails": [
+      "mtwuser@users.noreply.github.com"
+    ],
+    "escalation_contact": "gov-es Knowledge Steward <mtwuser@users.noreply.github.com>",
+    "roster": {
+      "owners": [
+        {
+          "email": "mtwuser@users.noreply.github.com",
+          "title": "gov-es Knowledge Steward",
+          "squad": ""
+        }
+      ],
+      "maintainers": [],
+      "validators": [],
+      "members": []
+    }
+  }
+}
