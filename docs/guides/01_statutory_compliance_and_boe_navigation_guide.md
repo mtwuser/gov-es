@@ -12,7 +12,7 @@ epistemic_grade: E1
 
 ## 1. Anatomy of Official `BOE` Identifiers & Consolidated Texts (`BOE-A-YYYY-NNNNN`) [E1]
 
-> **Exon [E1]:** *Always cite the `BOE` **Texto Consolidado** (`BOE-A-YYYY-NNNNN`) rather than isolated amending provisions, verifying the latest consolidation timestamp (`Última actualización publicada`) before sealing a `citation_receipt` ([01_age_ministerial_organigram_and_competences.md](../reference/01_age_ministerial_organigram_and_competences.md)).*
+> **Summary [E1]:** *Always cite the `BOE` **Texto Consolidado** (`BOE-A-YYYY-NNNNN`) rather than isolated amending provisions, verifying the latest consolidation timestamp (`Última actualización publicada`) before sealing a `citation_receipt` ([01_age_ministerial_organigram_and_competences.md](../reference/01_age_ministerial_organigram_and_competences.md)).*
 
 Every primary statute in Spain carries a permanent, machine-verifiable identifier issued by the *Agencia Estatal Boletín Oficial del Estado*:
 
@@ -27,7 +27,7 @@ Every primary statute in Spain carries a permanent, machine-verifiable identifie
 
 ## 2. Deterministic 3-Step Workflow to Categorize & Apply Public Regulations (`GOV-ES-01..03`) [E1]
 
-> **Exon [E1]:** *Resolve any Spanish compliance question in three deterministic hops: (1) map the activity to `AREA-01..07`, (2) verify normative rank (`E3 > E2 > E1`) and `ISO 3166-2:ES` territorial regime, and (3) anchor the decision with an HMAC-verifiable `citation_receipt`.*
+> **Summary [E1]:** *Resolve any Spanish compliance question in three deterministic hops: (1) map the activity to `AREA-01..07`, (2) verify normative rank (`E3 > E2 > E1`) and `ISO 3166-2:ES` territorial regime, and (3) anchor the decision with an HMAC-verifiable `citation_receipt`.*
 
 Whenever a project, school/university lab, or enterprise department needs to verify regulatory compliance in Spain, execute these three steps:
 
@@ -54,7 +54,7 @@ make consult LAYER=gov-es QUERY="Contratos Menores LCSP"
 
 ## 3. Progressive `M1 -> M4` Consumer Adaptation Matrix [E1]
 
-> **Exon [E1]:** *The same authoritative `gov-es` corpus serves secondary/university students (`M1..M2`), engineering/finance leads (`M3`), and fiduciary legal auditors (`M4`) without duplicating statutory truth.*
+> **Summary [E1]:** *The same authoritative `gov-es` corpus serves secondary/university students (`M1..M2`), engineering/finance leads (`M3`), and fiduciary legal auditors (`M4`) without duplicating statutory truth.*
 
 The table below shows how `ZeroCloudGravity` adapts disclosure depth across operator mastery levels:
 

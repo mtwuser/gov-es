@@ -12,7 +12,7 @@ epistemic_grade: E3
 
 ## 1. Structure of the Spanish Constitution of 1978 (`BOE-A-1978-31229`) [E3]
 
-> **Exon [E3]:** *The Spanish Constitution (`Art. 1–169 CE`, `BOE-A-1978-31229`) is the supreme norm binding all citizens and public authorities (`Art. 9.1 CE`), organized into a Preliminary Title and 10 Titles separating Legislative (`Cortes Generales`), Executive (`Gobierno y Administración`), Judicial (`Poder Judicial`), and Constitutional (`Tribunal Constitucional`) powers.*
+> **Summary [E3]:** *The Spanish Constitution (`Art. 1–169 CE`, `BOE-A-1978-31229`) is the supreme norm binding all citizens and public authorities (`Art. 9.1 CE`), organized into a Preliminary Title and 10 Titles separating Legislative (`Cortes Generales`), Executive (`Gobierno y Administración`), Judicial (`Poder Judicial`), and Constitutional (`Tribunal Constitucional`) powers.*
 
 The table below maps every constitutional block of the `CE 1978` to its institutional authority, core legal guarantees, and downstream regulatory substrate:
 
@@ -32,7 +32,7 @@ The table below maps every constitutional block of the `CE 1978` to its institut
 
 ## 2. The 5-Tier Spanish Normative Pyramid (`GOV-ES-01`) [E3]
 
-> **Exon [E3]:** *Under `Art. 9.3 CE` and `Art. 1.2` of the Civil Code, any provision contradicting a higher-ranking norm is null and void (`Lex Superior Derogat Inferiori`), while state vs. autonomous norms interact strictly by material competence (`Principio de Competencia`, `Art. 148–150 CE`).*
+> **Summary [E3]:** *Under `Art. 9.3 CE` and `Art. 1.2` of the Civil Code, any provision contradicting a higher-ranking norm is null and void (`Lex Superior Derogat Inferiori`), while state vs. autonomous norms interact strictly by material competence (`Principio de Competencia`, `Art. 148–150 CE`).*
 
 All legal instruments indexed in `gov-es` map deterministically onto five hierarchical ranks and parliamentary cut-points:
 
@@ -55,7 +55,7 @@ All legal instruments indexed in `gov-es` map deterministically onto five hierar
 
 ## 3. Constitutional Competence Distribution Matrix (`Art. 148` vs. `Art. 149.1` vs. `Art. 149.3 CE`) [E3]
 
-> **Exon [E3]:** *When resolving multi-layer regulatory applicability across Spain (`gov-es` + `geo-es`), verify whether the subject is Exclusive State (`Art. 149.1`), Shared Basic State Legislation + CCAA Development/Execution, or Devolved CCAA Competence (`Art. 148` & Statutes of Autonomy).*
+> **Summary [E3]:** *When resolving multi-layer regulatory applicability across Spain (`gov-es` + `geo-es`), verify whether the subject is Exclusive State (`Art. 149.1`), Shared Basic State Legislation + CCAA Development/Execution, or Devolved CCAA Competence (`Art. 148` & Statutes of Autonomy).*
 
 The table below codifies the three constitutional competence regimes governing operational compliance in Spain:
 

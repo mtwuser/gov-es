@@ -12,7 +12,7 @@ epistemic_grade: E2
 
 ## 1. General Administrative Procedure, Deadlines & Public Procurement Cut-Points (`LPACAP`, `LRJSP` & `LCSP`) [E3]
 
-> **Exon [E3]:** *Every administrative procedure in Spain is governed by `Ley 39/2015` (`LPACAP`, ad extra) and `Ley 40/2015` (`LRJSP`, ad intra), while public procurement contracts follow strict quantitative thresholds (`N` vs. `N ± 1`) under `Ley 9/2017` (`LCSP`) ([01_constitutional_hierarchy_and_state_powers.md](../architecture/01_constitutional_hierarchy_and_state_powers.md)).*
+> **Summary [E3]:** *Every administrative procedure in Spain is governed by `Ley 39/2015` (`LPACAP`, ad extra) and `Ley 40/2015` (`LRJSP`, ad intra), while public procurement contracts follow strict quantitative thresholds (`N` vs. `N ± 1`) under `Ley 9/2017` (`LCSP`) ([01_constitutional_hierarchy_and_state_powers.md](../architecture/01_constitutional_hierarchy_and_state_powers.md)).*
 
 All legal entities (*personas jurídicas*, `Art. 14.2 Ley 39/2015`) must interact electronically with Spanish Public Administrations (`DEHú`, `Sede Electrónica`, ` Cl@ve` / qualified `eIDAS` certificates) under the exact statutory deadlines and thresholds below:
 
@@ -35,7 +35,7 @@ Within each Ministry of the `Administración General del Estado`, organs divide 
 
 ## 2. Ministerial Organigram & Sectoral Statutory Categorization Matrix (`GOV-ES-02`) [E2]
 
-> **Exon [E2]:** *Classify every civic, scientific, or enterprise operation into one of the `7` Canonical Ministerial & Regulatory Domains (`AREA-01..07`) to resolve its competent supervisory agency and governing `BOE-A-*` statutes ([01_statutory_compliance_and_boe_navigation_guide.md](../guides/01_statutory_compliance_and_boe_navigation_guide.md)).*
+> **Summary [E2]:** *Classify every civic, scientific, or enterprise operation into one of the `7` Canonical Ministerial & Regulatory Domains (`AREA-01..07`) to resolve its competent supervisory agency and governing `BOE-A-*` statutes ([01_statutory_compliance_and_boe_navigation_guide.md](../guides/01_statutory_compliance_and_boe_navigation_guide.md)).*
 
 The matrix below maps Spain's ministerial structure and supervisory agencies to primary `BOE` consolidated statutes and consumer workspace surfaces:
 
@@ -53,7 +53,7 @@ The matrix below maps Spain's ministerial structure and supervisory agencies to 
 
 ## 3. Territorial Fiscal & Administrative Cross-Reference (`AGE <-> CCAA <-> EELL` via `geo-es`) [E3]
 
-> **Exon [E3]:** *Always combine the substantive norm in `AREA-01..07` with the `ISO 3166-2:ES` territorial code from `geo-es` to distinguish Common Fiscal Territory (`15 CCAA`) from Foral (`ES-PV`, `ES-NC`), Canary Islands (`ES-CN`), and Ceuta/Melilla (`ES-CE`, `ES-ML`) regimes.*
+> **Summary [E3]:** *Always combine the substantive norm in `AREA-01..07` with the `ISO 3166-2:ES` territorial code from `geo-es` to distinguish Common Fiscal Territory (`15 CCAA`) from Foral (`ES-PV`, `ES-NC`), Canary Islands (`ES-CN`), and Ceuta/Melilla (`ES-CE`, `ES-ML`) regimes.*
 
 When applying any statute from `AREA-01..07`, apply these deterministic territorial rules ([01_statutory_compliance_and_boe_navigation_guide.md](../guides/01_statutory_compliance_and_boe_navigation_guide.md)):
 
