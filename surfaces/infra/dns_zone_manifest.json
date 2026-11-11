@@ -1,0 +1,32 @@
+{
+  "schema_version": "zcg-dns-zone-v1",
+  "layer_id": "gov-es",
+  "local_rfc6761_subdomain": "gov-es.localhost",
+  "domain_governance": {
+    "governing_root_id": "gov-es",
+    "canonical_domain": "",
+    "intranet_zone": "",
+    "local_dev_zone": "gov-es.localhost",
+    "dns_publication": "public-authoritative",
+    "dns_authority": {
+      "governed_by": "gov-es",
+      "delegated_operator_layer": "gov-es",
+      "required_role": "owner",
+      "provider": "google-cloud-dns"
+    }
+  },
+  "records": [
+    {
+      "type": "A",
+      "name": "gov-es.knowledge.local",
+      "target": "127.0.0.1",
+      "scope": "public-authoritative"
+    },
+    {
+      "type": "TXT",
+      "name": "_zcg-attest.gov-es.knowledge.local",
+      "value": "v=zcg1; node=gov-es; mode=full-open-source",
+      "scope": "public-authoritative"
+    }
+  ]
+}

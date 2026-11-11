@@ -1,0 +1,18 @@
+{
+  "schema_version": "zcg-surface-seal-v1",
+  "layer_id": "gov-es",
+  "governing_root_id": "gov-es",
+  "environment": "pro",
+  "surface_veracity_mode": "full-open-source",
+  "code_exposure_required": true,
+  "canonical_domain": "gov-es.knowledge.local",
+  "local_rfc6761_subdomain": "gov-es.localhost",
+  "source_repo_url": "https://github.com/mtwuser/gov-es",
+  "copyright": "© 2026 gov-es",
+  "public_routes_count": 4,
+  "public_routes_digest": "3ac0475c76468a18",
+  "served_assets_count": 3,
+  "served_assets_merkle_root": "80eb9ea228ac2dbab85c97f9eb0310ba9e11bb233b1ef7ff7ba1a1bf56e449b8",
+  "seal_digest": "0289c568d5711ce3",
+  "verification_endpoint": "/.well-known/zcg-attestation.json"
+}
